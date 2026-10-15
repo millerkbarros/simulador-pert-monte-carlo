@@ -23,7 +23,7 @@
 <div id="savedModal" class="modal"><div class="modalbox"><div style="display:flex;justify-content:space-between;align-items:center"><h2>📁 Simulações salvas</h2><button class="btn" onclick="closeSaved()">Fechar ✕</button></div><p class="muted">Os dados ficam no localStorage deste navegador e não sincronizam automaticamente entre dispositivos.</p><div id="savedList"></div></div></div><div id="loading">Executando simulações Monte Carlo…</div>
 <script>
 'use strict';
-const DEFAULT_STAGES=[{name:'Análise e levantamento GAB',o:5,m:10,p:13},{name:'Proposta',o:3,m:5,p:5},{name:'Planejamento',o:5,m:5,p:5},{name:'Desenvolvimento',o:10,m:20,p:30},{name:'Teste e HML',o:5,m:10,p:15},{name:'Homologação do usuário',o:2,m:5,p:8}];
+const DEFAULT_STAGES=[{name:'Análise e levantamento',o:5,m:10,p:13},{name:'Proposta',o:3,m:5,p:5},{name:'Planejamento',o:5,m:5,p:5},{name:'Desenvolvimento',o:10,m:20,p:30},{name:'Teste e HML',o:5,m:10,p:15},{name:'Homologação do usuário',o:2,m:5,p:8}];
 const AUTO_KEY='pert_sim_autosave_v2',SAVED_KEY='pert_sim_saved_v2';let stages=[],lastResults=null,resultsDirty=true;
 const $=id=>document.getElementById(id);
 function clone(x){return JSON.parse(JSON.stringify(x))}function fmt(n,d=1){return Number(n).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d})}function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
