@@ -8,7 +8,7 @@ Ferramenta web para estimar **a probabilidade de entregar um projeto no prazo**,
 
 - Cadastra as etapas do projeto com estimativas **Otimista (O)**, **Mais provável (M)** e **Pessimista (P)**.
 - Calcula o **PERT** de cada etapa: `TE = (O + 4 × M + P) ÷ 6`.
-- Roda de **10 mil a 100 mil simulações** de Monte Carlo para gerar milhares de cenários de entrega.
+- Roda **milhares de simulações** de Monte Carlo para gerar cenários possíveis de entrega.
 - Considera apenas as etapas **a partir do marco inicial** escolhido (ex.: a partir do Desenvolvimento). O marco funciona como **linha de base**: mantido fixo, permite comparar o prazo realizado com o previsto e medir atrasos.
 - Mostra a **probabilidade de cumprir o prazo** e os percentis **P50, P80 e P90**.
 - Com a **data inicial** (opcional), converte cada indicador em **data de conclusão prevista**, pulando fins de semana e feriados nacionais quando a unidade é dias úteis.
@@ -19,7 +19,7 @@ Ferramenta web para estimar **a probabilidade de entregar um projeto no prazo**,
 
 1. Preencha nome do projeto, Analista Funcional, Fornecedor e o prazo (em dias úteis ou corridos).
 2. Cadastre as etapas com os valores O, M e P (regra: O ≤ M ≤ P).
-3. Escolha o **marco inicial**, a distribuição estatística e a quantidade de iterações.
+3. Escolha o **marco inicial** e a distribuição estatística.
 4. Clique em **Executar / recalcular Monte Carlo**.
 5. Use o **P80** como referência de planejamento e o **P90** como referência conservadora.
 
@@ -34,7 +34,7 @@ Ferramenta web para estimar **a probabilidade de entregar um projeto no prazo**,
 
 - As etapas são executadas **em sequência** (sem paralelismo).
 - A duração de cada etapa é sorteada **de forma independente**. Quando as etapas compartilham riscos (mesma equipe ou fornecedor), os atrasos tendem a ocorrer juntos e o risco real pode ser maior. Nesses casos, prefira o **P90**.
-- Os resultados variam levemente entre execuções (natureza aleatória da simulação). Com 10 mil iterações, a variação do P80 costuma ser de centésimos de dia.
+- Os resultados são exibidos em **dias inteiros** (frações a partir de 0,5 arredondam para cima). Por ser uma simulação, uma nova execução pode, raramente, variar em 1 dia.
 
 ## Privacidade
 
