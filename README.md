@@ -9,7 +9,7 @@ Ferramenta web para estimar **a probabilidade de entregar um projeto no prazo**,
 - Cadastra as etapas do projeto com estimativas **Otimista (O)**, **Mais provável (M)** e **Pessimista (P)**.
 - Calcula o **PERT** de cada etapa: `TE = (O + 4 × M + P) ÷ 6`.
 - Roda de **10 mil a 100 mil simulações** de Monte Carlo para gerar milhares de cenários de entrega.
-- Considera apenas as etapas **a partir do marco inicial** escolhido (ex.: a partir do Desenvolvimento), o que permite reavaliar o prazo restante a qualquer momento do projeto.
+- Considera apenas as etapas **a partir do marco inicial** escolhido (ex.: a partir do Desenvolvimento). O marco funciona como **linha de base**: mantido fixo, permite comparar o prazo realizado com o previsto e medir atrasos.
 - Mostra a **probabilidade de cumprir o prazo** e os percentis **P50, P80 e P90**.
 - Exibe histograma e curva acumulada de probabilidade (CDF).
 - Exporta o resultado em **PDF** e **CSV**, e salva configurações no próprio navegador.
