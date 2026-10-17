@@ -17,7 +17,7 @@ Ferramenta web para estimar **a probabilidade de entregar um projeto no prazo**,
 
 ## Como usar
 
-1. Preencha nome do projeto, Analista Funcional, Fornecedor e o prazo (em dias úteis ou corridos).
+1. Preencha nome do projeto, Analista Funcional, Fornecedor e o prazo disponível a partir do marco (em dias úteis ou corridos).
 2. Cadastre as etapas com os valores O, M e P (regra: O ≤ M ≤ P).
 3. Escolha o **marco inicial** e a distribuição estatística.
 4. Clique em **Executar / recalcular Monte Carlo**.
