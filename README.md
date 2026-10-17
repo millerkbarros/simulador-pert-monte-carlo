@@ -11,7 +11,7 @@ Ferramenta web para estimar **a probabilidade de entregar um projeto no prazo**,
 - Roda **milhares de simulações** de Monte Carlo para gerar cenários possíveis de entrega.
 - Considera apenas as etapas **a partir do marco inicial** escolhido (ex.: a partir do Desenvolvimento). O marco funciona como **linha de base**: mantido fixo, permite comparar o prazo realizado com o previsto e medir atrasos.
 - Mostra a **probabilidade de cumprir o prazo** e os percentis **P50, P80 e P90**.
-- Com a **data inicial** (opcional), converte cada indicador em **data de conclusão prevista**, pulando fins de semana e feriados nacionais quando a unidade é dias úteis.
+- Com a **data de início do marco** (opcional), converte cada indicador em **data de conclusão prevista**, pulando fins de semana e feriados nacionais quando a unidade é dias úteis.
 - Exibe histograma e curva acumulada de probabilidade (CDF).
 - Exporta o resultado em **PDF** e **CSV**, e salva configurações no próprio navegador.
 
