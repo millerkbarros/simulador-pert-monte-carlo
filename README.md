@@ -34,7 +34,7 @@ Ferramenta web para estimar **a probabilidade de entregar um projeto no prazo**,
 
 - As etapas são executadas **em sequência** (sem paralelismo).
 - A duração de cada etapa é sorteada **de forma independente**. Quando as etapas compartilham riscos (mesma equipe ou fornecedor), os atrasos tendem a ocorrer juntos e o risco real pode ser maior. Nesses casos, prefira o **P90**.
-- Os resultados são exibidos em **dias inteiros** (frações a partir de 0,5 arredondam para cima). Por ser uma simulação, uma nova execução pode, raramente, variar em 1 dia.
+- Os resultados são exibidos em **dias inteiros**: os percentis **P50, P80 e P90 são sempre arredondados para cima** (qualquer fração vira um dia a mais, para não prometer prazo menor que o calculado); PERT e média usam arredondamento comum (a partir de 0,5 para cima). Por ser uma simulação, uma nova execução pode, raramente, variar em 1 dia.
 
 ## Privacidade
 
