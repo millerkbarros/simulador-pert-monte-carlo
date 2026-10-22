@@ -44,6 +44,12 @@ Tudo roda **no navegador**: nenhum dado é enviado para servidor. As simulaçõe
 
 Página única em **HTML5, CSS e JavaScript puro**, sem dependências externas.
 
+## Portfólio profissional
+
+Organizei uma visão dos projetos, abordagens de trabalho e conteúdos técnicos publicados no LinkedIn, incluindo o simulador PERT + Monte Carlo, o framework PALAVRA, o framework VITREX e experiências em projetos de TI.
+
+➡️ **[Acesse o portfólio profissional](PORTFOLIO.md)**
+
 ---
 
 Criado por **Miller Cardoso Barros**.
