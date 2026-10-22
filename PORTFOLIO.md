@@ -1,95 +1,104 @@
 # Portfólio profissional — Miller Cardoso Barros
 
-Analista Funcional Sênior | Análise de Negócios | Scrum Master | Gestão de Projetos e Problemas de TI
+**Analista Funcional Sênior | Análise de Negócios | Scrum Master | Gestão de Projetos | Gestão de Problemas de TI**
 
-Este portfólio reúne projetos práticos, abordagens de trabalho e conteúdos técnicos publicados por mim. O objetivo é mostrar como conecto negócio, operação e tecnologia para entender problemas, estruturar soluções e melhorar a previsibilidade das entregas.
+Meu trabalho conecta negócio, operação e tecnologia. Atuo na compreensão de problemas, estruturação de requisitos, coordenação de entregas e investigação de causas, buscando soluções sustentáveis e alinhadas às necessidades do negócio.
 
-- **LinkedIn:** https://br.linkedin.com/in/millerbarros
-- **Projeto prático:** [Simulador de Prazos de Projetos — PERT + Monte Carlo](https://millerkbarros.github.io/simulador-pert-monte-carlo/)
-- **Código-fonte:** https://github.com/millerkbarros/simulador-pert-monte-carlo
+- **[Meu perfil no LinkedIn](https://br.linkedin.com/in/millerbarros)**
+- **[Acessar o simulador PERT + Monte Carlo](https://millerkbarros.github.io/simulador-pert-monte-carlo/)**
+- **[Consultar o código-fonte do simulador](https://github.com/millerkbarros/simulador-pert-monte-carlo)**
 
 ## Projetos e aplicações práticas
 
 ### 1. Simulador de Prazos de Projetos — PERT + Monte Carlo
-**Competências:** gestão de projetos, análise de riscos, estimativas, probabilidade, comunicação de cenários e tomada de decisão.
+**Competências:** gestão de projetos, análise de riscos, estimativas, probabilidade e tomada de decisão.
 
-Desenvolvi uma ferramenta web para estimar a probabilidade de concluir um projeto dentro do prazo disponível. O usuário informa estimativas otimista, mais provável e pessimista por etapa, seleciona um marco inicial e executa simulações para obter indicadores como P50, P80 e P90.
+Desenvolvi uma aplicação web para estimar a probabilidade de concluir um projeto dentro do prazo disponível. O usuário informa estimativas otimista, mais provável e pessimista por etapa, seleciona o marco inicial da análise e executa simulações para obter indicadores como P50, P80 e P90.
 
-A abordagem permite avaliar o prazo restante a partir de um marco do projeto, comparar cenários e explicitar premissas — por exemplo, execução sequencial e independência entre as durações das etapas.
+A ferramenta permite avaliar o prazo restante a partir de um marco, comparar cenários e explicitar as premissas do modelo. Inclui visualizações, exportação dos resultados e configuração das etapas.
 
-**Evidência:** [Acessar a ferramenta](https://millerkbarros.github.io/simulador-pert-monte-carlo/) · [Ver código-fonte](https://github.com/millerkbarros/simulador-pert-monte-carlo)
+**Evidências:** [Abrir a ferramenta](https://millerkbarros.github.io/simulador-pert-monte-carlo/) · [Ver o código no GitHub](https://github.com/millerkbarros/simulador-pert-monte-carlo)
 
-### 2. Framework PALAVRA — investigação de problemas recorrentes
+### 2. PALAVRA — abordagem para investigar problemas recorrentes
 **Competências:** gerenciamento de problemas, análise de causa raiz, melhoria contínua e análise operacional.
 
-Em publicação no LinkedIn, apresentei o PALAVRA como uma abordagem para transformar expressões recorrentes do cotidiano de uma equipe em sinais para investigação. O fluxo proposto é: **Perceber, Anotar, Localizar, Aprofundar, Verificar, Resolver e Acompanhar**.
+Criei o framework PALAVRA para transformar expressões repetidas no cotidiano de uma equipe em pistas para investigação:
 
-A premissa central é que um chamado, bug ou retrabalho pode ser apenas um sintoma. É necessário analisar evidências, consultar registros e investigar o contexto antes de definir a causa raiz e a ação corretiva.
+- **P** — Perceber
+- **A** — Anotar
+- **L** — Localizar
+- **A** — Aprofundar
+- **V** — Verificar
+- **R** — Resolver
+- **A** — Acompanhar
 
-**Aplicação possível:** classificar chamados por recorrência e impacto, aprofundar a análise dos grupos prioritários e acompanhar se as ações reduzem a reincidência. Essa aplicação depende de dados operacionais e validação; não se presume resultado sem medição.
+A ideia é tratar palavras como “bug”, “chamado”, “aguardando”, “dependência” e “retrabalho” como possíveis sinais, não como causas confirmadas. A investigação pode combinar contexto, registros, 5W, 5 Porquês e validação de evidências antes de definir ações corretivas.
 
-**Evidência:** [Publicações no LinkedIn](https://br.linkedin.com/in/millerbarros)
+**Evidência:** [Ver minhas publicações no LinkedIn](https://br.linkedin.com/in/millerbarros)
 
-### 3. Framework VITREX — estruturação de projetos
-**Competências:** visão de negócio, planejamento, alinhamento de stakeholders e execução.
+### 3. Framework VITREX para Gestão de Projetos
+**Competências:** visão de negócio, definição de objetivos, planejamento e alinhamento de stakeholders.
 
-Em artigo no LinkedIn, compartilhei o framework VITREX para estruturar a gestão de projetos, começando pela definição clara da visão, do objetivo e das pessoas impactadas.
+Publiquei o framework VITREX como uma abordagem para estruturar a gestão de projetos, começando pela clareza da visão: qual objetivo se busca, quem será impactado e qual problema precisa ser resolvido. A intenção é conectar atividades e entregas ao resultado esperado, em vez de conduzir o projeto apenas pelo cumprimento de tarefas.
 
-O foco é evitar que o projeto avance apenas pela execução de tarefas, sem entendimento comum sobre o resultado esperado e o problema de negócio que precisa resolver.
+**Evidência:** [Ver artigos no LinkedIn](https://br.linkedin.com/in/millerbarros)
 
-**Evidência:** [Publicações e artigos no LinkedIn](https://br.linkedin.com/in/millerbarros)
+## Artigos técnicos publicados no LinkedIn
 
-### 4. Lean, Kaizen, Six Sigma, 5S e BPM aplicados à TI
-**Competências:** melhoria contínua, eficiência operacional, gestão de processos e identificação de desperdícios.
+Os títulos abaixo aparecem na seção de artigos do meu perfil público. Eles demonstram interesse e produção de conteúdo sobre melhoria de processos, eficiência operacional e aplicação prática de métodos de gestão.
 
-Meus conteúdos exploram como práticas de melhoria podem ser adaptadas ao contexto de TI: localizar gargalos, reduzir retrabalho, tornar fluxos mais claros e observar o processo de ponta a ponta. A escolha da técnica deve partir do problema identificado, e não da aplicação automática de um framework.
+- **Lean Thinking na TI: chega de esconder ineficiência atrás de backlog** — reflexão sobre desperdícios e gargalos escondidos pela rotina de demandas.
+- **Framework VITREX para Gestão de Projetos** — estruturação de projetos a partir da visão e do objetivo.
+- **Six Sigma na TI: Uma Transformação Real!** — aplicação de pensamento orientado a processos e melhoria.
+- **Transformando a TI com o Poder do Kaizen** — melhoria contínua no contexto de equipes de tecnologia.
+- **Organização em TI? O que o 5S tem a ver com isso?** — organização e disciplina de processos.
+- **Você sabe o que é o método Lean e como ele pode transformar equipes de TI?** — fundamentos do Lean aplicados à rotina de TI.
+- **BPM na prática: 7 verdades que transformam a eficiência de qualquer operação** — gestão e melhoria de processos.
+- **Mudança Súbita no Escopo: Como Lidar com Alterações Inesperadas em Projetos de TI?** — gestão de mudanças e controle de escopo.
+- **Comunicação Não Violenta para TI** — comunicação e colaboração no ambiente técnico.
 
-Conteúdos publicados incluem:
-- *Lean Thinking na TI: chega de esconder ineficiência atrás de backlog*;
-- *Six Sigma na TI*;
-- *Transformando a TI com o poder do Kaizen*;
-- *Organização em TI? O que o 5S tem a ver com isso?*;
-- *BPM na prática*.
-
-**Evidência:** [Artigos no LinkedIn](https://br.linkedin.com/in/millerbarros)
+**Acessar os artigos:** [Perfil público no LinkedIn](https://br.linkedin.com/in/millerbarros)
 
 ## Experiência em projetos de tecnologia
 
-Os exemplos abaixo resumem experiências descritas no meu perfil profissional. Informações confidenciais de sistemas, clientes, dados operacionais e regras internas não são reproduzidas aqui.
+Os exemplos abaixo resumem experiências descritas no meu perfil profissional. Não exponho nomes de sistemas internos, dados de clientes, regras operacionais confidenciais ou outros detalhes restritos.
 
-### Squad de serviços de operação — Scrum
+### Squad de Serviços de Operação — Scrum
 - Atuação como Scrum Master em squad multidisciplinar de 11 profissionais.
-- Condução de trabalho relacionado a três épicos, incluindo integrações entre sistemas, APIs e funcionalidades para aplicações server e mobile.
-- Foco em entregas incrementais, remoção de impedimentos e alinhamento entre operação e tecnologia.
+- Trabalho relacionado a três épicos, incluindo integrações entre sistemas, APIs e funcionalidades para aplicações server e mobile.
+- Aplicação de práticas ágeis, acompanhamento de impedimentos e alinhamento entre operação e tecnologia.
 
 ### Reestruturação do fluxo de ordens de serviço
 - Liderança de projeto com quatro profissionais para evoluir o processo de faturamento de um modelo por bloco para uma abordagem individualizada por serviço.
-- Coordenação das integrações e do alinhamento entre áreas técnicas e de negócio.
-- Ênfase em rastreabilidade, controle do processo e aderência ao escopo.
+- Coordenação de integrações e alinhamento entre áreas técnicas e de negócio.
+- Entrega descrita no perfil como concluída dentro do prazo e aderente ao escopo.
 
 ### Construção de sete APIs para disponibilização de dados em BI
 - Liderança de projeto com seis profissionais.
-- Coordenação das atividades para disponibilizar informações para análise e apoiar a tomada de decisão.
-- Trabalho conduzido com planejamento, acompanhamento de dependências e foco em qualidade.
+- Coordenação do desenvolvimento de sete APIs para disponibilizar informações a análises de Business Intelligence.
+- Foco em integração de dados, planejamento e apoio à tomada de decisão.
 
 ### Piloto de monitoramento operacional
-- Liderança de equipe de cinco profissionais em iniciativa de monitoramento de vazão, pressão e indicadores operacionais.
-- Acompanhamento das fases do projeto e alinhamento da solução ao escopo definido.
+- Liderança de equipe de cinco profissionais em iniciativa de monitoramento de vazão, pressão e outros indicadores operacionais.
+- Condução das fases do projeto em modelo cascata, com alinhamento ao escopo definido.
 
-## Como trabalho
+### Gestão de problemas de TI e delivery de projetos
+- Atuação na identificação de causas raiz e acompanhamento de correções definitivas para problemas recorrentes.
+- Coordenação de testes e homologações com equipes técnicas.
+- Acompanhamento de demandas de sustentação, impedimentos, dependências e prazos em iniciativas de escopo definido.
 
-1. **Entender o problema antes de propor a solução:** validar contexto, evidências, regras de negócio e impacto para os usuários.
-2. **Conectar negócio, operação e tecnologia:** alinhar stakeholders, equipe técnica e fornecedores sobre o resultado esperado.
-3. **Tratar causa, não apenas sintoma:** investigar recorrência e validar hipóteses antes de definir ações.
-4. **Gerenciar entrega e risco:** explicitar premissas, dependências, estimativas e critérios de aceite.
-5. **Acompanhar resultados:** usar evidências e indicadores para verificar se a solução resolveu o problema.
+## Minha abordagem de trabalho
 
-## Conteúdos e perfil
+1. **Entender antes de propor:** investigar o processo de ponta a ponta, as regras de negócio, as evidências e os impactos.
+2. **Conectar negócio e tecnologia:** alinhar usuários, áreas de negócio, desenvolvedores e fornecedores.
+3. **Investigar a causa raiz:** diferenciar sintomas de causas e validar hipóteses antes de definir a solução.
+4. **Gerenciar entrega e risco:** explicitar escopo, premissas, dependências, estimativas e critérios de aceite.
+5. **Verificar o resultado:** acompanhar indicadores e evidências para avaliar se a solução resolveu o problema.
 
-Meu LinkedIn reúne artigos e publicações sobre análise de negócios, gestão de projetos, Scrum, melhoria contínua, gestão de problemas e conexão entre negócio e tecnologia.
+## Perfil e contato profissional
 
-**Perfil:** https://br.linkedin.com/in/millerbarros
+Para conhecer outras publicações e a trajetória completa, acesse meu [perfil no LinkedIn](https://br.linkedin.com/in/millerbarros).
 
 ---
 
-*Este portfólio é um resumo profissional. Os frameworks autorais e os projetos são apresentados conforme os conteúdos e experiências descritos no meu perfil; resultados quantitativos não são atribuídos quando não há indicador verificável publicado.*
+**Nota de transparência:** este portfólio sintetiza projetos, competências e conteúdos apresentados no meu perfil público e no repositório do simulador. As descrições não substituem documentação detalhada de projetos; resultados quantitativos só devem ser considerados quando houver indicadores verificáveis.
